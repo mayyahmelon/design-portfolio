@@ -45,9 +45,13 @@ body {
 
 /* Title */
 
-.title,
-.logo {
+.title {
     padding: 3em 3em 3em 0;
+}
+
+.logo {
+    width: 20%;
+    padding: 2em;
 }
 
 @media (max-width: 767px) {
