@@ -3,9 +3,7 @@ Title: Home
 Description: This is our index page.
 ---
 
-Home page
+About me
 ==========================
 
-The source for this page is in `content/index.md`.
-
-This is a sample home page written in markdown with some frontmatter defined.
+Hej! Jag heter Sumaiyyah och är 25 år gammal. Jag bor just nu i Borlänge, men i framtiden vill jag flytta till Spanien med min sambo och katterna. Vi har två katter, Dio, och Mojo. Dio är två år och Mojo åtta. 
