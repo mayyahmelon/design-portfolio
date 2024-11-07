@@ -47,7 +47,7 @@ body {
 .pictures {
     display: flex;
     justify-content: space-evenly;
-    padding-top: 1em;
+    padding-top: 3em;
 }
 
 .header,
