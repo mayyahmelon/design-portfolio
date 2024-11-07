@@ -1,3 +1,10 @@
+:root {
+    --pink: #ffbaba;
+    --beige: #ffeadb;
+    --dark-beige: #f7c5a8;
+    --green: #678a74;
+}
+
 * {
     box-sizing: border-box;
     border: 0 none;
@@ -67,7 +74,13 @@ body {
 
     .logo {
         max-width: 30%;
+        padding: 1em;
     }
+
+    .main {
+        padding: 1em;
+    }
+
 }
 
 .title * {
