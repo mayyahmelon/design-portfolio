@@ -5,6 +5,7 @@
     --green: #678a74;
     --white: #fffdfd;
     --off-white: #e8e9da;
+    --purple: #301934;
 }
 
 * {
@@ -34,6 +35,7 @@ body {
     display: flex;
     flex-direction: column;
     background-color: var(--pink);
+    cursor: url(../../../assets/img/cursor_wand.png) 8 8, auto;
 }
 
 .main {
@@ -131,7 +133,7 @@ body {
 }
 
 .title * {
-    color: #111;
+    color: #2d0f3f;
 }
 
 .title p {
@@ -195,6 +197,7 @@ h5,
 h6 {
     margin-bottom: 0.6em;
     font-weight: bold;
+    color: var(--purple);
 }
 
 img {
