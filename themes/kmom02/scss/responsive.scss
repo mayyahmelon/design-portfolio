@@ -1,0 +1,41 @@
+@media (max-width: 767px) {
+
+    .title,
+    .logo {
+        padding: 1em 1em 1em 0;
+    }
+
+    .header {
+        height: auto;
+    }
+
+    .site-header {
+        width: auto;
+    }
+
+    .title {
+        display: flex;
+        align-items: center;
+    }
+
+    .logo {
+        max-width: 30%;
+        padding: 1em;
+    }
+
+    .main {
+        padding: 1em;
+        max-width: fit-content;
+    }
+
+    .footer {
+        padding: 2px 1em 2px 1em;
+    }
+
+    .main h1 {
+        border-bottom: 1px solid black;
+        padding-bottom: 4px;
+
+    }
+
+}

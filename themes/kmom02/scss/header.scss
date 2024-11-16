@@ -1,0 +1,30 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: $header-background-color;
+    height: 8rem;
+    border-bottom: 2px solid $font-alternative-color;
+}
+
+.site-header {
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+}
+
+/* Title */
+
+.title {
+    padding-top: 1em;
+    text-align: center;
+}
+
+.title p {
+    text-align: center;
+}
+
+.logo {
+    width: 8rem;
+    padding: 0.5rem;
+    filter: drop-shadow(9px 0px 8px rgb(85, 79, 79))
+}

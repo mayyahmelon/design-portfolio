@@ -6,12 +6,9 @@
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
 @import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
-
 html {
-  line-height: 1.15;
-  /* 1 */
-  -webkit-text-size-adjust: 100%;
-  /* 2 */
+  line-height: 1.15; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
 }
 
 /* Sections
@@ -46,12 +43,9 @@ h1 {
  * 2. Show the overflow in Edge and IE.
  */
 hr {
-  box-sizing: content-box;
-  /* 1 */
-  height: 0;
-  /* 1 */
-  overflow: visible;
-  /* 2 */
+  box-sizing: content-box; /* 1 */
+  height: 0; /* 1 */
+  overflow: visible; /* 2 */
 }
 
 /**
@@ -59,10 +53,8 @@ hr {
  * 2. Correct the odd `em` font sizing in all browsers.
  */
 pre {
-  font-family: monospace, monospace;
-  /* 1 */
-  font-size: 1em;
-  /* 2 */
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
 }
 
 /* Text-level semantics
@@ -79,12 +71,9 @@ a {
  * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
  */
 abbr[title] {
-  border-bottom: none;
-  /* 1 */
-  text-decoration: underline;
-  /* 2 */
-  text-decoration: underline dotted;
-  /* 2 */
+  border-bottom: none; /* 1 */
+  text-decoration: underline; /* 2 */
+  text-decoration: underline dotted; /* 2 */
 }
 
 /**
@@ -102,10 +91,8 @@ strong {
 code,
 kbd,
 samp {
-  font-family: monospace, monospace;
-  /* 1 */
-  font-size: 1em;
-  /* 2 */
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
 }
 
 /**
@@ -155,14 +142,10 @@ input,
 optgroup,
 select,
 textarea {
-  font-family: inherit;
-  /* 1 */
-  font-size: 100%;
-  /* 1 */
-  line-height: 1.15;
-  /* 1 */
-  margin: 0;
-  /* 2 */
+  font-family: inherit; /* 1 */
+  font-size: 100%; /* 1 */
+  line-height: 1.15; /* 1 */
+  margin: 0; /* 2 */
 }
 
 /**
@@ -170,8 +153,7 @@ textarea {
  * 1. Show the overflow in Edge.
  */
 button,
-input {
-  /* 1 */
+input { /* 1 */
   overflow: visible;
 }
 
@@ -180,8 +162,7 @@ input {
  * 1. Remove the inheritance of text transform in Firefox.
  */
 button,
-select {
-  /* 1 */
+select { /* 1 */
   text-transform: none;
 }
 
@@ -230,18 +211,12 @@ fieldset {
  *    `fieldset` elements in all browsers.
  */
 legend {
-  box-sizing: border-box;
-  /* 1 */
-  color: inherit;
-  /* 2 */
-  display: table;
-  /* 1 */
-  max-width: 100%;
-  /* 1 */
-  padding: 0;
-  /* 3 */
-  white-space: normal;
-  /* 1 */
+  box-sizing: border-box; /* 1 */
+  color: inherit; /* 2 */
+  display: table; /* 1 */
+  max-width: 100%; /* 1 */
+  padding: 0; /* 3 */
+  white-space: normal; /* 1 */
 }
 
 /**
@@ -264,10 +239,8 @@ textarea {
  */
 [type=checkbox],
 [type=radio] {
-  box-sizing: border-box;
-  /* 1 */
-  padding: 0;
-  /* 2 */
+  box-sizing: border-box; /* 1 */
+  padding: 0; /* 2 */
 }
 
 /**
@@ -283,10 +256,8 @@ textarea {
  * 2. Correct the outline style in Safari.
  */
 [type=search] {
-  -webkit-appearance: textfield;
-  /* 1 */
-  outline-offset: -2px;
-  /* 2 */
+  -webkit-appearance: textfield; /* 1 */
+  outline-offset: -2px; /* 2 */
 }
 
 /**
@@ -301,10 +272,8 @@ textarea {
  * 2. Change font properties to `inherit` in Safari.
  */
 ::-webkit-file-upload-button {
-  -webkit-appearance: button;
-  /* 1 */
-  font: inherit;
-  /* 2 */
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
 }
 
 /* Interactive
@@ -457,8 +426,7 @@ pre code {
   margin-left: 2.5em;
   padding-left: 0;
 }
-
-.fa-ul>li {
+.fa-ul > li {
   position: relative;
 }
 
@@ -491,7 +459,6 @@ pre code {
 .fab.fa-pull-left {
   margin-right: 0.3em;
 }
-
 .fa.fa-pull-right,
 .fas.fa-pull-right,
 .far.fa-pull-right,
@@ -512,12 +479,10 @@ pre code {
   0% {
     transform: rotate(0deg);
   }
-
   100% {
     transform: rotate(360deg);
   }
 }
-
 .fa-rotate-90 {
   -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=1)";
   transform: rotate(90deg);
@@ -543,8 +508,7 @@ pre code {
   transform: scale(1, -1);
 }
 
-.fa-flip-both,
-.fa-flip-horizontal.fa-flip-vertical {
+.fa-flip-both, .fa-flip-horizontal.fa-flip-vertical {
   -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1)";
   transform: scale(-1, -1);
 }
@@ -6432,8 +6396,7 @@ readers do not read off random characters that represent icons */
   width: 1px;
 }
 
-.sr-only-focusable:active,
-.sr-only-focusable:focus {
+.sr-only-focusable:active, .sr-only-focusable:focus {
   clip: auto;
   height: auto;
   margin: 0;
@@ -6454,7 +6417,6 @@ readers do not read off random characters that represent icons */
   src: url("../../shared/fontawesome/webfonts/fa-brands-400.eot");
   src: url("../../shared/fontawesome/webfonts/fa-brands-400.eot?#iefix") format("embedded-opentype"), url("../../shared/fontawesome/webfonts/fa-brands-400.woff2") format("woff2"), url("../../shared/fontawesome/webfonts/fa-brands-400.woff") format("woff"), url("../../shared/fontawesome/webfonts/fa-brands-400.ttf") format("truetype"), url("../../shared/fontawesome/webfonts/fa-brands-400.svg#fontawesome") format("svg");
 }
-
 .fab {
   font-family: "Font Awesome 5 Brands";
   font-weight: 400;
@@ -6472,7 +6434,6 @@ readers do not read off random characters that represent icons */
   src: url("../../shared/fontawesome/webfonts/fa-solid-900.eot");
   src: url("../../shared/fontawesome/webfonts/fa-solid-900.eot?#iefix") format("embedded-opentype"), url("../../shared/fontawesome/webfonts/fa-solid-900.woff2") format("woff2"), url("../../shared/fontawesome/webfonts/fa-solid-900.woff") format("woff"), url("../../shared/fontawesome/webfonts/fa-solid-900.ttf") format("truetype"), url("../../shared/fontawesome/webfonts/fa-solid-900.svg#fontawesome") format("svg");
 }
-
 .fa,
 .fas {
   font-family: "Font Awesome 5 Free";
@@ -6491,14 +6452,133 @@ readers do not read off random characters that represent icons */
   src: url("../../shared/fontawesome/webfonts/fa-regular-400.eot");
   src: url("../../shared/fontawesome/webfonts/fa-regular-400.eot?#iefix") format("embedded-opentype"), url("../../shared/fontawesome/webfonts/fa-regular-400.woff2") format("woff2"), url("../../shared/fontawesome/webfonts/fa-regular-400.woff") format("woff"), url("../../shared/fontawesome/webfonts/fa-regular-400.ttf") format("truetype"), url("../../shared/fontawesome/webfonts/fa-regular-400.svg#fontawesome") format("svg");
 }
-
 .far {
   font-family: "Font Awesome 5 Free";
   font-weight: 400;
 }
 
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #ffeadb;
+  height: 8rem;
+  border-bottom: 2px solid #fff;
+}
+
+.site-header {
+  display: flex;
+  width: 60%;
+  justify-content: space-between;
+}
+
+/* Title */
+.title {
+  padding-top: 1em;
+  text-align: center;
+}
+
+.title p {
+  text-align: center;
+}
+
+.logo {
+  width: 8rem;
+  padding: 0.5rem;
+  filter: drop-shadow(9px 0px 8px rgb(85, 79, 79));
+}
+
+/* Main content */
+.main {
+  background-color: #e8e9da;
+}
+
+.pictures img {
+  border-radius: 10px;
+  border: 1px solid #fff;
+  padding: 5px;
+  filter: drop-shadow(0px 0px 20px rgb(119, 185, 119));
+}
+
+/* Footer */
+.footer {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #fff;
+  background-color: #678a74;
+  overflow: auto;
+}
+
+.footer a {
+  color: #222;
+}
+
+.footer .social {
+  font-size: 2rem;
+}
+
 * {
-  font-family: "Libre Baskerville", serif;
+  box-sizing: border-box;
+  border: 0 none;
+  margin: 0;
+  padding: 0;
+}
+
+ol,
+ul {
+  padding-left: 1.5em;
+}
+
+.hidden {
+  display: none !important;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+/* Placement */
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffbaba;
+  cursor: url(../../../assets/img/cursor_wand.png) 8 8, auto;
+}
+
+.main {
+  flex: 1 0 auto;
+  max-width: 50%;
+  padding: 2rem;
+  text-align: center;
+  margin: auto;
+}
+
+.pictures {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 3em;
+}
+
+.header,
+.footer {
+  flex: 0 0 auto;
+}
+
+/* Typografy */
+body {
+  font-family: sans-serif;
+  line-height: 1.5rem;
+  color: #444;
+}
+
+p,
+td,
+th,
+li,
+dd {
+  text-align: justify;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
 }
 
 h1,
@@ -6507,13 +6587,50 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Noto Sanss", sans-serif;
+  margin-bottom: 0.6em;
+  font-weight: bold;
+  color: #301934;
 }
 
-body {
-  background-color: #3d5a80;
+img {
+  max-width: 100%;
 }
 
+@media (max-width: 767px) {
+  .title,
+  .logo {
+    padding: 1em 1em 1em 0;
+  }
+  .header {
+    height: auto;
+  }
+  .site-header {
+    width: auto;
+  }
+  .title {
+    display: flex;
+    align-items: center;
+  }
+  .logo {
+    max-width: 30%;
+    padding: 1em;
+  }
+  .main {
+    padding: 1em;
+    max-width: fit-content;
+  }
+  .footer {
+    padding: 2px 1em 2px 1em;
+  }
+  .main h1 {
+    border-bottom: 1px solid black;
+    padding-bottom: 4px;
+  }
+}
 * {
-  color: #000;
+  font-family: "Libre Baskerville", serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Noto Sanss", sans-serif;
 }
