@@ -6476,7 +6476,6 @@ readers do not read off random characters that represent icons */
   padding-top: 1em;
   text-align: center;
 }
-
 .title p {
   text-align: center;
 }
@@ -6506,9 +6505,6 @@ readers do not read off random characters that represent icons */
   border-top: 1px solid #fff;
   background-color: #678a74;
   overflow: auto;
-}
-.footer a {
-  color: 222;
 }
 
 .footer .social {
@@ -6541,7 +6537,7 @@ body {
   display: flex;
   flex-direction: column;
   background-color: #ffbaba;
-  cursor: url(../../../assets/img/cursor_wand.png) 8 8, auto;
+  cursor: url(../../../assets/img/cursor_wand.png) 4 4, auto;
 }
 
 .main {
@@ -6616,16 +6612,34 @@ img {
   }
   .main {
     padding: 1em;
-    max-width: fit-content;
+    max-width: 100%;
   }
   .footer {
     padding: 2px 1em 2px 1em;
   }
   .main h1 {
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid rgba(0, 0, 0, 0);
     padding-bottom: 4px;
   }
 }
+a {
+  color: #301934;
+}
+a:link {
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+  color: #301934;
+}
+a:hover {
+  text-decoration: none;
+  color: #402346;
+}
+a:active {
+  text-decoration: none;
+}
+
 * {
   font-family: "Libre Baskerville", serif;
 }
