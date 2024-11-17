@@ -20,9 +20,16 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
 * {
-    font-family: 'Libre Baskerville', serif;
+  font-family: 'Libre Baskerville',
+    serif;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'Noto Sanss', sans-serif;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Noto Sanss',
+    sans-serif;
 }

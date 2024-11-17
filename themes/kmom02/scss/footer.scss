@@ -1,13 +1,13 @@
 /* Footer */
 
 .footer {
-    display: flex;
-    justify-content: space-between;
-    border-top: 1px solid $font-alternative-color;
-    background-color: $footer-background-color;
-    overflow: auto;
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid $font-alternative-color;
+  background-color: $footer-background-color;
+  overflow: auto;
 }
 
 .footer .social {
-    font-size: 2rem;
+  font-size: 2rem;
 }
