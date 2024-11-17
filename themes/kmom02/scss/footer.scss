@@ -6,10 +6,9 @@
     border-top: 1px solid $font-alternative-color;
     background-color: $footer-background-color;
     overflow: auto;
-}
-
-.footer a {
-    color: #222;
+    a {
+        color: 222;
+    }
 }
 
 .footer .social {

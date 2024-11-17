@@ -6507,9 +6507,8 @@ readers do not read off random characters that represent icons */
   background-color: #678a74;
   overflow: auto;
 }
-
 .footer a {
-  color: #222;
+  color: 222;
 }
 
 .footer .social {
