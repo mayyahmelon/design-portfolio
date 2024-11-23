@@ -6595,12 +6595,6 @@ img {
   max-width: 100%;
 }
 
-.wrapMain {
-  display: flex;
-  flex-direction: column;
-  min-height: 100%;
-}
-
 a {
   color: #301934;
 }
@@ -6621,13 +6615,12 @@ a:active {
 
 /* technology.scss */
 .landingpage {
+  flex: 1 0 auto;
   display: grid;
   gap: 1.96rem 1.96rem;
   grid-template-columns: repeat(3, 1fr);
   width: 35%;
   margin: auto;
-  margin-top: 1.96rem;
-  margin-bottom: 0;
   background-color: rgb(255, 209, 230);
   padding: 2rem;
   border-radius: 2rem;
@@ -6654,14 +6647,17 @@ a:active {
   flex-direction: row;
   justify-content: space-between;
   align-items: start;
+  max-width: 70%;
 }
 
 .technology .article {
   width: 70%;
+  padding-right: 5rem;
 }
 
 .technology .menu {
   width: 20%;
+  border-right: 2px solid #fff;
 }
 
 .css, .git {
@@ -6678,6 +6674,10 @@ a:active {
 
 .python {
   grid-column: span 3;
+}
+
+.currentPage {
+  border-bottom: 2px solid #678a74;
 }
 
 @media (max-width: 767px) {
@@ -6724,6 +6724,13 @@ a:active {
   .landingpage {
     grid-gap: 5px;
     grid-template-columns: 1fr;
+    width: 100%;
+  }
+  .menu {
+    display: none;
+  }
+  .technology .article {
+    width: 100%;
   }
 }
 * {

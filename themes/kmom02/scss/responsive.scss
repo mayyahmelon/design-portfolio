@@ -52,7 +52,15 @@
   .landingpage {
     grid-gap: 5px;
     grid-template-columns: 1fr;
+    width: 100%;
   }
 
+  .menu {
+    display: none;
+  }
+
+  .technology .article {
+    width: 100%;
+  }
 
 }
