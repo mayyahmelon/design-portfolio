@@ -2,23 +2,26 @@
 
 <body>
     {% include 'incl/nav.twig' %}
-    <div class="wrapMain">
+
         <div class="main technology" role="main">
             <aside class="menu">
                 <h2>Meny</h2>
 
                 {% for page in pages("technology") %}
-                        <p><a href="{{ page.url }}">{{ page.title }}</a></p>
+                    {% if page.url == current_page.url %}
+                        <p><a href="{{ page.url }}" class="currentPage">{{ page.title }}</a></p>
+                    {% else %}
+                    <p><a href="{{ page.url }}">{{ page.title }}</a></p>
+                    {% endif %}
                 {% endfor %}
             </aside>
-
+ 
             <article class="article">
                 {{ content }}
             </article>
 
         </div>
-    </div>
-    
+
     {% include 'incl/footer.twig' %}
 </div>
 </body>
