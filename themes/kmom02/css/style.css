@@ -6617,7 +6617,7 @@ a:active {
 .landingpage {
   flex: 1 0 auto;
   display: grid;
-  gap: 1.96rem 1.96rem;
+  gap: 1.96rem;
   grid-template-columns: repeat(3, 1fr);
   width: 35%;
   margin: auto;
@@ -6638,7 +6638,7 @@ a:active {
 }
 
 .box:hover {
-  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 10px 10px 5px 0 rgba(0, 0, 0, 0.2);
   background-color: #e8e9da;
 }
 
@@ -6660,11 +6660,13 @@ a:active {
   border-right: 2px solid #fff;
 }
 
-.css, .git {
+.css,
+.git {
   grid-column: 1;
 }
 
-.html, .sqlite {
+.html,
+.sqlite {
   grid-column: span 2;
 }
 
@@ -6676,7 +6678,7 @@ a:active {
   grid-column: span 3;
 }
 
-.currentPage {
+.current-page {
   border-bottom: 2px solid #678a74;
 }
 

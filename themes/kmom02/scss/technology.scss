@@ -1,67 +1,69 @@
 /* technology.scss */
 .landingpage {
-    flex: 1 0 auto;
-    display: grid;
-    gap: 1.96rem 1.96rem;
-    grid-template-columns: repeat(3, 1fr);
-    width: 35%;
-    margin: auto;
-    background-color: rgb(255, 209, 230);
-    padding: 2rem;
-    border-radius: 2rem;
+  flex: 1 0 auto;
+  display: grid;
+  gap: 1.96rem;
+  grid-template-columns: repeat(3, 1fr);
+  width: 35%;
+  margin: auto;
+  background-color: rgb(255, 209, 230);
+  padding: 2rem;
+  border-radius: 2rem;
 }
 
 .landingpage h1 {
-    grid-column: span 3;
-    justify-self: center;
-    text-align: center;
+  grid-column: span 3;
+  justify-self: center;
+  text-align: center;
 }
 
 .box {
-    border: 2px solid $footer-background-color;
-    padding: 1.96rem;
+  border: 2px solid $footer-background-color;
+  padding: 1.96rem;
 
 }
 
 .box:hover {
-    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.2);
-    background-color: $main-background-color;
+  box-shadow: 10px 10px 5px 0 rgba(0, 0, 0, 0.2);
+  background-color: $main-background-color;
 }
 
 .technology {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: start;
-    max-width: 70%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: start;
+  max-width: 70%;
 }
 
 .technology .article {
-    width: 70%;
-    padding-right: 5rem;
+  width: 70%;
+  padding-right: 5rem;
 }
 
 .technology .menu {
-    width: 20%;
-    border-right: 2px solid $font-alternative-color;
+  width: 20%;
+  border-right: 2px solid $font-alternative-color;
 }
 
-.css, .git {
-    grid-column: 1;
+.css,
+.git {
+  grid-column: 1;
 }
 
-.html, .sqlite {
-    grid-column: span 2;
+.html,
+.sqlite {
+  grid-column: span 2;
 }
 
 .javascript {
-    grid-column: span 2;
+  grid-column: span 2;
 }
 
 .python {
-    grid-column: span 3;
+  grid-column: span 3;
 }
 
-.currentPage {
-    border-bottom: 2px solid $footer-background-color;
+.current-page {
+  border-bottom: 2px solid $footer-background-color;
 }
