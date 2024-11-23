@@ -17,6 +17,7 @@ ul {
 html,
 body {
   height: 100%;
+  margin: 0;
 }
 
 /* Placement */
@@ -63,6 +64,8 @@ dd {
   text-align: justify;
   overflow-wrap: break-word;
   word-wrap: break-word;
+  font-size: 1.4em;
+  margin-bottom: 1.96rem;
 }
 
 h1,
@@ -78,4 +81,10 @@ h6 {
 
 img {
   max-width: 100%;
+}
+
+.wrapMain {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
