@@ -3,22 +3,24 @@
 <body>
     {% include 'incl/nav.twig' %}
     <div class="wrapMain">
-        <div class="main">
+
         <div class="landingpage">
             {{ content }}
 
             {% for tech in meta.Techs %}
+            <div class="{{tech.class}}">
             <a href="{{ base_url }}/technology/{{ tech.class }}">
-            <div class="box {{tech.class}}">
+            <div class="box">
                 <h1>{{ tech.name }}</h1>
             </div>
             </a>
-            {% endfor %}
         </div>
-    </div>
-    
+            {% endfor %}
+
+        </div>
+
     {% include 'incl/footer.twig' %}
-</div>
+    </div>
 </body>
 
 </html>

@@ -37,4 +37,22 @@
 
   }
 
+  .landingpage h1,
+  .css,
+  .html,
+  .javascript,
+  .php,
+  .python,
+  .git,
+  .sqlite {
+    font-size: 1rem;
+    grid-column: 1;
+  }
+
+  .landingpage {
+    grid-gap: 5px;
+    grid-template-columns: 1fr;
+  }
+
+
 }

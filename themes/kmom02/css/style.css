@@ -6598,7 +6598,86 @@ img {
 .wrapMain {
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
+  min-height: 100%;
+}
+
+a {
+  color: #301934;
+}
+a:link {
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+  color: #301934;
+}
+a:hover {
+  text-decoration: none;
+  color: #402346;
+}
+a:active {
+  text-decoration: none;
+}
+
+/* technology.scss */
+.landingpage {
+  display: grid;
+  gap: 1.96rem 1.96rem;
+  grid-template-columns: repeat(3, 1fr);
+  width: 35%;
+  margin: auto;
+  margin-top: 1.96rem;
+  margin-bottom: 0;
+  background-color: rgb(255, 209, 230);
+  padding: 2rem;
+  border-radius: 2rem;
+}
+
+.landingpage h1 {
+  grid-column: span 3;
+  justify-self: center;
+  text-align: center;
+}
+
+.box {
+  border: 2px solid #678a74;
+  padding: 1.96rem;
+}
+
+.box:hover {
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.2);
+  background-color: #e8e9da;
+}
+
+.technology {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.technology .article {
+  width: 70%;
+}
+
+.technology .menu {
+  width: 20%;
+}
+
+.css, .git {
+  grid-column: 1;
+}
+
+.html, .sqlite {
+  grid-column: span 2;
+}
+
+.javascript {
+  grid-column: span 2;
+}
+
+.python {
+  grid-column: span 3;
 }
 
 @media (max-width: 767px) {
@@ -6631,60 +6710,22 @@ img {
     border-bottom: 1px solid rgba(0, 0, 0, 0);
     padding-bottom: 4px;
   }
+  .landingpage h1,
+  .css,
+  .html,
+  .javascript,
+  .php,
+  .python,
+  .git,
+  .sqlite {
+    font-size: 1rem;
+    grid-column: 1;
+  }
+  .landingpage {
+    grid-gap: 5px;
+    grid-template-columns: 1fr;
+  }
 }
-a {
-  color: #301934;
-}
-a:link {
-  text-decoration: none;
-}
-a:visited {
-  text-decoration: none;
-  color: #301934;
-}
-a:hover {
-  text-decoration: none;
-  color: #402346;
-}
-a:active {
-  text-decoration: none;
-}
-
-/* technology.scss */
-.landingpage {
-  display: grid;
-  gap: 1.96rem 1.96rem;
-}
-
-.landingpage h1 {
-  grid-column: span 3;
-  justify-self: center;
-}
-
-.box {
-  border: 1px solid #000000;
-  padding: 1.96rem;
-}
-
-.box:hover {
-  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.2);
-}
-
-.technology {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: start;
-}
-
-.technology .article {
-  width: 70%;
-}
-
-.technology .menu {
-  width: 20%;
-}
-
 * {
   font-family: "Libre Baskerville", serif;
 }
