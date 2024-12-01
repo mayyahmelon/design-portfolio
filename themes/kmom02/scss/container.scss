@@ -26,7 +26,7 @@ body {
   display: flex;
   flex-direction: column;
   background-color: $background-color;
-  cursor: 'url(../../../assets/img/cursor_wand.png) 4 4, auto';
+  // cursor: url('../../../assets/img/cursor_wand.png') 4 4, auto;
 }
 
 .main {
@@ -56,7 +56,7 @@ body {
   color: #444;
 }
 
-p,
+
 td,
 th,
 li,
@@ -64,9 +64,18 @@ dd {
   text-align: justify;
   overflow-wrap: break-word;
   word-wrap: break-word;
-  font-size: 1.4em;
+  font-size: 1.3rem;
   margin-bottom: 1.96rem;
 }
+
+p {
+  text-align: justify;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  font-size: 1rem;
+  margin-bottom: 1.96rem;
+}
+
 
 h1,
 h2,
@@ -81,4 +90,13 @@ h6 {
 
 img {
   max-width: 100%;
+}
+
+table {
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+table td {
+  border: 1px solid black;
 }

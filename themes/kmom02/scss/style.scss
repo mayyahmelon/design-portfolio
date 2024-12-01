@@ -34,3 +34,7 @@ h6 {
   font-family: 'Noto Sanss',
     sans-serif;
 }
+
+.header {
+  background: linear-gradient(to right, $background-color 0%, $header-background-color 100%);
+}
