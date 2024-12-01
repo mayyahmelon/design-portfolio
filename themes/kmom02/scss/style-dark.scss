@@ -34,3 +34,15 @@ h6 {
   font-family: 'Noto Sanss',
     sans-serif;
 }
+
+body {
+  color: $font-color;
+}
+
+.pictures img {
+  filter: drop-shadow(0 0 20px rgb(25, 39, 25));
+}
+
+.header {
+  background: linear-gradient(to right, #4c5e55 0%, #473042 100%);
+}

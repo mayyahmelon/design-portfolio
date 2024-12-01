@@ -22,3 +22,8 @@ a {
     text-decoration: none; 
   }
 }
+
+
+.active {
+  border-bottom: 3px double $footer-background-color;
+}

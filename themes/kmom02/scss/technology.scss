@@ -6,7 +6,7 @@
   grid-template-columns: repeat(3, 1fr);
   width: 35%;
   margin: auto;
-  background-color: rgb(255, 209, 230);
+  background-color: $tech-box;
   padding: 2rem;
   border-radius: 2rem;
 }
@@ -25,7 +25,7 @@
 
 .box:hover {
   box-shadow: 10px 10px 5px 0 rgba(0, 0, 0, 0.2);
-  background-color: $main-background-color;
+  background-color: $tech-box-hover;
 }
 
 .technology {
