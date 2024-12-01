@@ -12,8 +12,8 @@ Uppgiften går ut på att analysera tre hemsidor och deras användning av färge
 Urval
 -----------------------
 
-För att analysera tre hemsidor har jag valt utifrån tre olika kategorier. Detta för att jag ska kunna
-se om det finns en gemensam användning utav färger och typografi oavsett användningsområde. De tre hemsidor jag har valt är följande:
+För att analysera tre webbplatser har jag valt sidor från tre olika kategorier. Syftet med det är för att undersöka om det finns en gemensam användning utav färger och typografi oavsett användningsområde.
+De tre hemsidor som är valda är följande..
 
 ASOS - En populär hemsida som säljer kläder, accessoarer.
 
@@ -25,7 +25,8 @@ The Guardian - En nyhetssida.
 Metod
 -----------------------
 
-De verktyg jag kommer att använda för att kunna analysera hemsidorna är främst "Inspect Element som finns inbyggd i min webbläsare, Opera GX. Jag kommer att kolla i HTML och CSS, och även använda av mig color-picker. 
+Undersökningen kommer att utgå ifrån att använda verktygen "Inspect Element" som finns inbyggd i webbläsaren. Inspect Element visar koden som används i webbsidan, vilket innebär att informationen för typsnitt,
+font-storlek och med mera, finns tillgänglig. Dessutom kommer verktygen "color-picker" att användas.
 
 Resultat
 -----------------------
@@ -45,16 +46,20 @@ Resultat
 </tr>
 </table>
 
-ASOS har ett monokromatiskt färgschema för basen med vit bakgrund och mörk/ljusgrå för navbaren. Sedan använder de röd och mörkgrön som är komplementeringsfärger. Den vita bakgrunden passar nog bäst för att bilderna ska kunna synas på det bästa sättet, neutralt. Sedan har vi den röda färgen som sätts där man vill dra mest uppmärksamhet, t.ex Black Friday deals och nedsatta pris. Fokuset är på kläderna som säljs, därför passar hemsidan med mörkgråa navbaren för det är inte något man ska "se".
+Asos använder ett monokromatiskt färgschema för basdesignen. En vit bakgrund med mörk och ljusgrå för navigeringsområdet. Man ser även användningen utav mörkgrön och röd. 
+
+Anledningen till varför ASOS har valt vit för bakgrund är troligtvis för att ge användaren den bästa möjliga sättet att se produkterna. Produktbilderna kan vara oförutsägbar när det gäller vilka färger den kan innehålla, därför är vit en bra neutral bakgrund. Navbaren består av två olika nyanser av grått, vilket fyller sitt syfte med att inte dra uppmärksamhet till sig själv. 
+
+Färgen röd används där det är rabatterade priser under produktbilderna, men i navbaren används den för att visa en kategori som heter "black friday".
 
 <h3>Typsnitt</h3>
 
 ASOS "body" tagg har font-style "futura-pt, Tahoma, Geneva, Verdana, Arial, sans-serif;".
 
-All text som finns på hemsidan har font-stylen "futura-pt", vilket är ett san-serif typsnitt. H1 som man ser på bilden har storleken 24px. ASOS verkar inte ha någon andra header element. Texterna i navbaren är en a element med storleken 14px. Brödtexten under varje bild är samma.
+All text på hemsidan använder fontstilen "futura-pt", ett san-serif typsnitt. H1 som syns på bilden har storleken 24px. ASOS verkar inte använda andra typer av header-element. De rubrikerna man ser är för det mesta del bilder. Texterna i navbaren är länkar med storleken 14px. Brödtexten under varje bild är densamma.
 
 <h3> Profil</h3>
-ASOS val av färger och design passar hemsidans användningsområde, vilket är att sälja kläder och accessoarer. Fokuset ska vara på varorna och tack vare de färgerna ASOS valde, klaschar inte de med produkterna.
+ASOS val av färger och design är väl anpassad för hemsidans användningsområde, vilket är att sälja kläder och accessoarer. På grund av neutrala färger som används på hemsidan, har ASOS lyckats med att lägga fokuset på produkterna som säljs.
 
 <h2> SVT Play </h2>
 
@@ -72,14 +77,20 @@ ASOS val av färger och design passar hemsidans användningsområde, vilket är 
 </tr>
 </table>
 
-SVT play har en väldigt simpelt tema, mörk bakgrund med vit text. Monokromatisk färgschema. Vi har en röd färg som accent för att framhäva viktiga händelser som användaren inte kan missa! Nämligen "live" knappen. Gröna färgen är såklart SVTs egna logo.
+SVT Play har ett väldigt enkelt tema med en mörk bakgrund och vit text. Färgschemat är monokromatisk med en röd accentfärg. Anvädningen utav en ljusgrön färg i headern är inte så konstig, då det är den välkända färgen i SVT's logo. 
+
+Användningen utav en mörk bakgrund har troligen att göramed hemsidans syfte. SVT Play är en streamingsida, där man går för att titta på filmer eller tv-serier. Den röda accent färgen används här för att visa "live"-sändningar. 
+
+Varje serie eller film med thumbnail har oförutsägbar färger och nyanser, som hade krockat med hemsidans design om inte den hade haft ett neutralt färgschema.
 
 <h3>Typsnitt</h3>
 
 Hemsidan använder typsnittet "publik", i princip allt. Den enda header rubrik som används på framsidan är H2. Brödtexten har storlek 16 px.
+Resten utav hemsidan består av bilder och länkar till respektive filmer/serier.
 
 <h3> Profil</h3>
-Då det är en streaming site har de valt en bra mörkt tema. Användaren ska förmodligen känna sig själv som i bio, där lamporna släckts och filmen spelas. Dessutom har thumbnails massa olika galna färger, som kanske hade klaschat om inte bakgrundsfärgen var mörktgrå.
+
+Eftersom SVT Play är en streamingmedia har de gjort ett bra val med ett neutralt tema. Dessutom är temat mörkt, vilket är för att väcka en vis typ av känslor hos användaren. Användaren ska förmodligen känna sig som i en bio, där lamporna släckts och filmen spelas. 
 
 <h2> The Guardian </h2>
 
@@ -97,10 +108,14 @@ Då det är en streaming site har de valt en bra mörkt tema. Användaren ska f�
 </tr>
 </table>
 
-The Guardian är en nyhetssida med komplementfärgschema. Vi har blå header med gula accents, och en orange underline. Bakgrundfärgen är vit med en smal röd border runt aktuella händelser. En live rapportering markeras med en röd bakgrundfärg på rubriken.
+The Guardian är en nyhetssida med komplementfärgschema. Headern innehåller en blå bakgrund med gula knappar, och en orange understrykning under vissa rubriker.  Bakgrundsfärgen är vit, med en smal röd kant runt en grupp med aktuella händelser. En ännu mer aktuell händelser där det sänds live markeras med en röd bakgrundsfärg på rubriken.
+
+Som tidigare nämnt, har The Guardian valt en blå bakgrundsfärg till sin header. En sådan djupblå färg drar uppmärksamhet till sig själv. Enligt The Guardian så är blå förknippat bland annat med förtroende och tillit. Trovärdighet är viktig att ha för en nyhetssida. 
+
+Färgen gul används för knappar som till exempel "Support us". Gul är en färg som kompletterar blått, detta skapar en kontrast som går hand i hand samtidigt som det lockar ögonen till.
 
 <h3>Typsnitt</h3>
-Jag kan tyvärr inte hitta typsnittet Guardian använder på framsidan, men det måste nog vara en 'serif' typ. Men ändå är det lättläst. Det beror nog också på koden som ligger i deras body:
+Jag kan tyvärr inte hitta typsnittet The Guardian använder på framsidan, men det måste troligtvis vara en 'serif' typ. Trots det är det ändå lättläst. Det beror nog också på koden som ligger i deras body:
 
     text-rendering: optimizeLegibility;
     font-feature-settings: 'kern';
@@ -111,7 +126,9 @@ I brödtexten i en artikel så används fonten "GuardianTextEgyptian". Line-heig
 
 <h3> Profil</h3>
 
-Fokuset för en hemsida som The Guardian borde väl vara läsbarheten. Artiklarna ska ha bra spacing och bra färger så att det inte skär i ögonen när man läser. Sedan är det väl viktig att få så många klicks som möjligt, därför har vi röda färgen som guidar ögonen att se.
+Fokuset för en hemsida som The Guardian borde väl vara läsbarheten. Artiklarna ska ha bra spacing och bra färger så att det inte skär i ögonen när man läser. 
+
+Men för att användaren ens ska ha viljan att läsa på The Guardian behövs ytterligare en till sak, trovärdigheten. Man kan bygga upp det på många sätt, men ett av de är val av färger. Detta gjorde The Guardian bra med, använda färgen blå.
 
 Analys
 -----------------------
@@ -132,6 +149,9 @@ Referenser
 <li><a href="https://www.asos.com/se/kvinna/">ASOS</a></li>
 <li><a href="https://www.svtplay.se">SVT Play</a></li>
 <li><a href="https://www.theguardian.com/europe">The Guardian</a></li>
+<li><a href="https://www.theguardian.com/commentisfree/2014/oct/19/colour-significance-guardian-redesign#:~:text=Blues%20are%20usually%20associated%20with,to%20use%20colour%20for%20signposting.">The Guardian: Färgen blå</a></li>
+
+
 
 </ul>
 
