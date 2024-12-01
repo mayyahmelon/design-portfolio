@@ -50,3 +50,7 @@ body {
 .active {
   border-bottom: 3px double #9accac;
 }
+
+.nav a, .nav-toggle {
+  color: $header-font-color;
+}

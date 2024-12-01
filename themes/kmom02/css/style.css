@@ -320,7 +320,7 @@ code {
   padding: 0.1em 0.2em;
   border: 1px solid #ccc;
   border-radius: 0.3em;
-  background: #f5f5f5;
+  background: #e8e9da;
   font-family: monospace;
   font-size: 0.85rem;
   line-height: 1.9824;
@@ -330,7 +330,7 @@ pre {
   padding: 0 1em;
   border: 1px solid #ccc;
   border-radius: 0.3em;
-  background: #f5f5f5;
+  background: #ffbaba;
 }
 
 pre code {
@@ -6595,22 +6595,26 @@ img {
   max-width: 100%;
 }
 
-a {
+.nav a {
   color: #301934;
 }
-a:link {
+.nav a:link {
   text-decoration: none;
 }
-a:visited {
+.nav a:visited {
   text-decoration: none;
   color: #301934;
 }
-a:hover {
+.nav a:hover {
   text-decoration: none;
   color: #402346;
 }
-a:active {
+.nav a:active {
   text-decoration: none;
+}
+
+.active {
+  border-bottom: 3px double #678a74;
 }
 
 /* technology.scss */
@@ -6639,7 +6643,7 @@ a:active {
 
 .box:hover {
   box-shadow: 10px 10px 5px 0 rgba(0, 0, 0, 0.2);
-  background-color: #e8e9da;
+  background-color: #dbb5c8;
 }
 
 .technology {
