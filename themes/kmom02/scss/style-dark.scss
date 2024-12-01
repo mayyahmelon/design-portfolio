@@ -46,11 +46,3 @@ body {
 .header {
   background: linear-gradient(to right, #4c5e55 0%, #473042 100%);
 }
-
-.active {
-  border-bottom: 3px double #9accac;
-}
-
-.nav a, .nav-toggle {
-  color: $header-font-color;
-}

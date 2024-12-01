@@ -14,7 +14,7 @@ a {
   &:hover {
 
     text-decoration: none;
-    color: $link-hover; 
+    color: $accent-color; 
   }
 
   &:active { 
@@ -25,5 +25,30 @@ a {
 
 
 .active {
-  border-bottom: 3px double $footer-background-color;
+  border-bottom: 3px double $active-color;
+}
+
+.footer a {
+  color: $background-color;
+
+  &:link { 
+    text-decoration: none;
+  }
+
+  &:visited {
+
+    text-decoration: none;
+    color: $background-color; 
+  }
+
+  &:hover {
+
+    text-decoration: none;
+    color: $link-hover; 
+  }
+
+  &:active { 
+
+    text-decoration: none; 
+  }
 }
