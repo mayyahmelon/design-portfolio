@@ -1,0 +1,25 @@
+{% include 'incl/header.twig' %}
+
+<body>
+    {% include 'incl/nav.twig' %}
+
+        <div class="gallery_grid">
+            {{ content }}
+
+            {% for image in meta.Images %}
+            <div class="image_grid">
+                <a href="{{ image.name }} " target="_blank">
+                    <picture>
+                    <source media="(max-width: 767px)" srcset="{{ image.name }}?w=250&h=250&q=90&crop-to-fit">
+                    <source media="(min-width: 768px)" srcset="{{ image.name }}?w=450&h=450&q=83&crop-to-fit">
+                    <img src="{{ image.name }}?w=450&h=450&q=85&crop-to-fit" alt="{{ image.alt }}">
+                    </picture>
+                </a>
+            </div>
+            {% endfor %}
+        </div>
+
+    {% include 'incl/footer.twig' %}
+</body>
+
+</html>
