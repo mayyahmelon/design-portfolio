@@ -7,7 +7,7 @@
             {{ content }}
 
             {% for image in meta.Images %}
-            <div class="image_grid">
+            <div class="image-grid">
                 <a href="{{ image.name }} " target="_blank">
                     <picture>
                     <source media="(max-width: 767px)" srcset="{{ image.name }}?w=250&h=250&q=90&crop-to-fit">
