@@ -3,9 +3,8 @@
 <body>
     {% include 'incl/nav.twig' %}
 
-        <div class="gallery_grid">
+        <div class="gallery-grid">
             {{ content }}
-
             {% for image in meta.Images %}
             <div class="image-grid">
                 <a href="{{ image.name }} " target="_blank">
@@ -18,8 +17,11 @@
             </div>
             {% endfor %}
         </div>
+        <div class="youtube-video">
+        <iframe src="https://www.youtube.com/embed/0BzGlfm1wFo?si=7nfOLzUzYL63evMD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
 
-    {% include 'incl/footer.twig' %}
+        {% include 'incl/footer.twig' %}
 </body>
 
 </html>

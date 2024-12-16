@@ -13,14 +13,27 @@ video {
   margin: auto;
   padding: 2rem;
   border-radius: 2rem;
+
+  h1 {
+    grid-column: span 3;
+    justify-self: center;
+    text-align: center;
+  }
 }
 
-.gallery-grid h1 {
-  grid-column: span 3;
-  justify-self: center;
-  text-align: center;
-}
+.youtube-video {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 500px;
+  height: 0;
+  position: relative;
 
+  iframe {
+    width: 900px;
+    height: 450px;
+  }
+
+}
 
 @media (max-width: 767px) {
   .gallery-grid {
@@ -31,5 +44,14 @@ video {
     grid-column: 1;
     justify-self: center;
     text-align: center;
+  }
+
+  .youtube-video {
+    padding-bottom: 250px;
+
+    iframe {
+      width: 300px;
+      height: 170px;
+    }
   }
 }
