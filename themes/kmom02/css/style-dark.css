@@ -6498,7 +6498,6 @@ readers do not read off random characters that represent icons */
 
 .site-header {
   display: flex;
-  width: 60%;
   justify-content: space-between;
 }
 
@@ -6506,6 +6505,7 @@ readers do not read off random characters that represent icons */
 .title {
   padding-top: 1em;
   text-align: center;
+  font-size: small;
 }
 .title p {
   text-align: center;
@@ -6665,7 +6665,7 @@ a:active {
   text-decoration: none;
 }
 
-.active {
+.nav ul li.active {
   border-bottom: 3px double #b5e4b0;
 }
 
