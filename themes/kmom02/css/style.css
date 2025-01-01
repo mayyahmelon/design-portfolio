@@ -6522,15 +6522,13 @@ readers do not read off random characters that represent icons */
   background-color: #fff;
 }
 
-.pictures img {
-  border-radius: 10px;
-  border: 1px solid #fff;
-  padding: 5px;
-  filter: drop-shadow(0 0 20px #2da94a);
+.main h1 {
+  color: #943d42;
 }
 
-.main h1 {
-  color: #f37981;
+.about {
+  border-top: 2px dashed #0000;
+  padding: 1rem 0;
 }
 
 /* Footer */
@@ -6579,10 +6577,18 @@ body {
 }
 
 .main {
-  flex: 1 0 auto;
-  max-width: 50%;
+  max-width: 100%;
   padding: 2rem;
   text-align: center;
+  margin: auto;
+  height: 100%;
+}
+
+.bord {
+  border: 20px solid transparent;
+  border-image: url("https://solaria.neocities.org/bits/blacklace.png") 18 round;
+  max-width: 68%;
+  flex: 1 0 auto;
   margin: auto;
 }
 
@@ -6590,6 +6596,18 @@ body {
   display: flex;
   justify-content: space-evenly;
   padding-top: 3em;
+  border-top: 2px solid #0000;
+}
+
+.pictures img {
+  opacity: 0.9;
+}
+
+.pictures img:hover {
+  border-radius: 10px;
+  padding: 5px;
+  filter: drop-shadow(0 0 20px #0000);
+  opacity: 1;
 }
 
 .header,
@@ -6665,8 +6683,8 @@ a:active {
   text-decoration: none;
 }
 
-.nav ul li.active {
-  border-bottom: 3px double #76e487;
+.active {
+  border-top: 3px double #76e487;
 }
 
 .footer a {
